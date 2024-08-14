@@ -29,19 +29,19 @@ A thank you message is displayed, concluding the shopping session.
 
 ## How to Run
 
-- Compile the Program:
+1. Compile the Program:
 
 Use a C compiler like gcc to compile the code:
 ```
 gcc -o Cproject Cproject.c
 ```
-- Run the Executable:
+2. Run the Executable:
 
 After compiling, run the executable to start the application:
 ```
 ./Cproject
 ```
-- Follow the On-Screen Prompts:
+3. Follow the On-Screen Prompts:
 
 The program will guide you through the shopping process with on-screen prompts.
 Enter your name and shoe size to begin.
