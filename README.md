@@ -29,23 +29,19 @@ A thank you message is displayed, concluding the shopping session.
 
 ## How to Run
 
--Compile the Program:
+- Compile the Program:
 
 Use a C compiler like gcc to compile the code:
-bash
-Copy code
 ```
-gcc -o sneaker_shop sneaker_shop.c
+gcc -o Cproject Cproject.c
 ```
-Run the Executable:
+- Run the Executable:
 
 After compiling, run the executable to start the application:
-bash
-Copy code
 ```
-./sneaker_shop
+./Cproject
 ```
-Follow the On-Screen Prompts:
+- Follow the On-Screen Prompts:
 
 The program will guide you through the shopping process with on-screen prompts.
 Enter your name and shoe size to begin.
@@ -65,14 +61,14 @@ Arrays are used to manage costs, quantities, and the final cart summary.
 
 ## Dependencies
 
-- Standard C Libraries: The program relies on standard C libraries such as stdio.h, string.h, and others.
+Standard C Libraries: The program relies on standard C libraries such as stdio.h, string.h, and others.
   
 ## Potential Enhancements
 
-Dynamic Array Allocation: To manage more items without predefined limits.
-Persistent Data Storage: Implementing file I/O to save and retrieve cart data between sessions.
-Improved User Interface: Adding more user-friendly prompts and error handling.
-Discounts and Offers: Adding features like discount codes or promotional offers.
+- Dynamic Array Allocation: To manage more items without predefined limits.
+- Persistent Data Storage: Implementing file I/O to save and retrieve cart data between sessions.
+- Improved User Interface: Adding more user-friendly prompts and error handling.
+- Discounts and Offers: Adding features like discount codes or promotional offers.
 
 ## Conclusion
 This project demonstrates the application of fundamental C programming concepts such as loops, conditionals, arrays, strings, and user input/output handling. It provides a basic yet interactive simulation of an online shopping experience, reinforcing the practical use of these concepts in a real-world scenario.
